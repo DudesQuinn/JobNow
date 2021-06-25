@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view ">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_switch"
+            android:icon="@drawable/ic_swap_horiz_black_24dp"
+            android:title="switch position" />
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/ic_premium_black_24dp"
+            android:title="get premium" />
+
+    </group>
+
+    <item android:title="communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="share us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="send feedback" />
+        </menu>
+    </item>
+
+</menu>

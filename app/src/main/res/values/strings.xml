@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">jobNow</string>
+    <string-array name="country">
+        <item>Israel</item>
+        <item>England</item>
+        <item>U.S.A</item>
+        <item>Russia</item>
+
+
+    </string-array>
+</resources>

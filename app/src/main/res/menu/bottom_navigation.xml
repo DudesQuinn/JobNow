@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/navAddJob"
+    android:icon="@drawable/ic_add_box_black_24dp"
+    android:title="Add job"/>
+    <item
+        android:id="@+id/navInbox"
+        android:icon="@drawable/ic_inbox_black_24dp"
+        android:title="Inbox"/>
+    <item
+        android:id="@+id/navReview"
+        android:icon="@drawable/ic_rate_review_black_24dp"
+        android:title="Review"/>
+</menu>

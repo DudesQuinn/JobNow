@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/main">
+    <activity
+        android:id="@+id/main"
+        android:name="com.example.jobnow.Main"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.jobnow.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/setup"
+        android:name="com.example.jobnow.Setup"
+        android:label="activity_setup"
+        tools:layout="@layout/activity_setup" />
+</navigation>
